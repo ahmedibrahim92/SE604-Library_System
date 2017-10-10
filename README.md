@@ -3,6 +3,11 @@ Code Review Assignment for Class SE604, 2017
 
 # How to Setup it locally ?
 
+## XAMPP
+XAMPP
+## SQL Configuration
+SQL
+
 # Make sure these boxes are checked before submitting/approving the PR
 
 ## General
@@ -83,6 +88,6 @@ Code Review Assignment for Class SE604, 2017
   - [ ] No sensitive information is logged or visible in a stacktrace
 
 # Assignment
-##1. Review only all .php files in the `root` directory and `/member` directory.
-##2. Your should review each file according to the checklist.
-##3. Write a report for each file.
+## 1. Review only all .php files in the `root` directory and `/member` directory.
+## 2. Your should review each file according to the checklist.
+## 3. Write a report for each file.
