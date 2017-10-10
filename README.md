@@ -1,9 +1,11 @@
 # SE604-Library_System
 Code Review Assignment for Class SE604, 2017
 
-## Make sure these boxes are checked before submitting/approving the PR
+# How to Setup it locally ?
 
-# General
+# Make sure these boxes are checked before submitting/approving the PR
+
+## General
   - [ ] The code works
   - [ ] The code is easy to understand
   - [ ] Follows coding conventions
@@ -42,7 +44,7 @@ Code Review Assignment for Class SE604, 2017
   - [ ] Performance is considered
   - [ ] Loop iteration and off by one are taken care of
 
-# Architecture
+## Architecture
   - [ ] Design patterns if used are correctly applied
   - [ ] [Law of Demeter](http://c2.com/cgi/wiki/LawOfDemeter?LawOfDemeter) is not violated
   - [ ] A class should have only a single responsibility (i.e. only one potential change in the software's specification should be able to affect the specification of the class)
@@ -51,13 +53,13 @@ Code Review Assignment for Class SE604, 2017
   - [ ] Many client-specific interfaces are better than one general-purpose interface.
   - [ ] Depend upon Abstractions. Do not depend upon concretions.
 
-# API
+## API
   - [ ] APIs and other public contracts check input values and fail fast
   - [ ] API checks for correct oauth scope / user permissions
   - [ ] Any API change should be reflected in the API documentation
   - [ ] APIs return correct status codes in responses
 
-# Logging
+## Logging
   - [ ] Logging should be easily discoverable
   - [ ] Required logs are present
   - [ ] Frivolous logs are absent
@@ -65,7 +67,7 @@ Code Review Assignment for Class SE604, 2017
   - [ ] No `print_r`, `var_dump` or similar calls exist
   - [ ] No stack traces are printed
   
-# Documentation
+## Documentation
   - [ ] Comments should indicate WHY rather that WHAT the code is doing
   - [ ] All methods are commented in clear language.
   - [ ] Comments exist and describe rationale or reasons for decisions in code
@@ -75,7 +77,12 @@ Code Review Assignment for Class SE604, 2017
   - [ ] Data structures and units of measurement are explained
 
 
-# Security
+## Security
   - [ ] All data inputs are checked (for the correct type, length/size, format, and range)
   - [ ] Invalid parameter values handled such that exceptions are not thrown
   - [ ] No sensitive information is logged or visible in a stacktrace
+
+# Assignment
+##1. Review only all .php files in the `root` directory and `/member` directory.
+##2. Your should review each file according to the checklist.
+##3. Write a report for each file.
