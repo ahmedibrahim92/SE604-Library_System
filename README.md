@@ -1,6 +1,6 @@
 # SE604-Library_System
 Code Review Assignment for Class SE604, 2017
-
+This is an opensource project for [Online Library Management System](https://github.com/keya26/library), we updated/added some changes to use in our code review assignment
 # How to Setup it locally ?
 
 ## XAMPP
