@@ -1,19 +1,24 @@
 # SE604-Library_System
-Code Review Assignment for Class SE604, 2017
-This is an opensource project for [Online Library Management System](https://github.com/keya26/library), we updated/added some changes to use in our code review assignment
-# How to Setup it locally ?
+Code Review Assignment for Class SE604, 2017.
+This is an opensource project for [Online Library Management System](https://github.com/keya26/library), we updated/added some changes to use in our code review assignment.
 
-## XAMPP
-XAMPP
-## SQL Configuration
-SQL
+# Required Readings
+You have to read some tutorials before starting in the assignment.
+  - 1. Learn how to build PHP applications [PHP Crash Course](http://www.makeuseof.com/tag/learn-build-php-crash-course/)
+  - 2. Learn coding standards for PHP [PHP Coding Standards](http://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
+
+# Setting Up Your Development Environment
+  - 1. Download [XAMPP](https://www.apachefriends.org/download.html)
+  - 2. Download the project or clone it using [GIT](https://git-scm.com/), you can check this link to know [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
+  - 3. Put the project in `C:\xampp\htdocs` folder on your machine and run it in `localhost` according to the Crash Course in the Readings
+  - 4. Take a journey in the application
 
 # Code Review Checklist
 
 ## General
   - [ ] The code works
   - [ ] The code is easy to understand
-  - [ ] Follows coding conventions [php code conventions](http://c2.com/cgi/wiki?MagicNumber)
+  - [ ] Follows coding conventions
   - [ ] Names are simple and if possible short
   - [ ] Names are spelt correctly
   - [ ] Names contain units where applicable
@@ -73,5 +78,4 @@ SQL
 
 # Assignment
 ### 1. Review only all `.php` files in the `root` directory and `/member` directory.
-### 2. Your should review each file according to the checklist.
-### 3. Write a report for each file.
+### 2. Your should review each file according to the review checklist.
