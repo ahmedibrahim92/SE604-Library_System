@@ -8,7 +8,7 @@ You have to read some tutorials before starting in the assignment.
   - 2. Learn coding standards for PHP [PHP Coding Standards](http://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
 
 # Setting Up Your Development Environment
-  - 1. Download [XAMPP](https://www.apachefriends.org/download.html)
+  - 1. Download and Setup [XAMPP](https://www.apachefriends.org/download.html)
   - 2. Download the project or clone it using [GIT](https://git-scm.com/), you can check this link to know [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
   - 3. Put the project in `C:\xampp\htdocs` folder on your machine and run it in `localhost` according to the Crash Course in the Readings
   - 4. Take a journey in the application
