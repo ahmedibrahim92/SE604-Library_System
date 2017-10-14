@@ -14,17 +14,14 @@ You have to read some tutorials before starting in the assignment.
   4.  From XAMPP control panel, click start for Apache
   5. Open http://localhost:{default-port}/SE604-Library_System/
   6. Take a journey in the application(Signup, Login, Search for Book, ... etc.)
-  7. Submit Snapshots with the application
+  7. Submit some snapshots
 
 # Code Review Checklist [6 Marks]
 
 ## General [1 Mark]
-  - [ ] The code works
   - [ ] The code is easy to understand
   - [ ] Follows coding conventions
   - [ ] Names are simple and if possible short
-  - [ ] Names are spelt correctly
-  - [ ] Names contain units where applicable
   - [ ] There are no usages of [magic numbers](http://c2.com/cgi/wiki?MagicNumber)
   - [ ] No hard coded constants that could possibly change in the future
   - [ ] All variables are in the smallest scope possible
@@ -49,14 +46,12 @@ You have to read some tutorials before starting in the assignment.
   - [ ] Loops have a set length and correct termination conditions
   - [ ] Blocks of code inside loops are as small as possible
   - [ ] No methods with boolean parameters
-  - [ ] No object exists longer than necessary
-  - [ ] No memory leaks
   - [ ] Methods return early without compromising code readability
   - [ ] Performance is considered
   - [ ] Loop iteration and off by one are taken care of
 
 ## Architecture [1 Mark]
-  - [ ] [Law of Demeter](http://c2.com/cgi/wiki/LawOfDemeter?LawOfDemeter) is not violated
+  - [ ] Law of Demeter is not violated
   - [ ] A class/file should has only a single responsibility
   - [ ] Classes, modules, functions, etc. should be open for extension, but closed for modification
   - [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
@@ -65,7 +60,7 @@ You have to read some tutorials before starting in the assignment.
   
 ## Documentation [1 Mark]
   - [ ] Comments should indicate WHY rather that WHAT the code is doing
-  - [ ] All methods are commented in clear language.
+  - [ ] All methods are commented in clear language
   - [ ] Comments exist and describe rationale or reasons for decisions in code
   - [ ] All public methods/interfaces/contracts are commented describing usage
   - [ ] All edge cases are described in comments
@@ -81,17 +76,17 @@ You have to read some tutorials before starting in the assignment.
 
 
 # Assignment [8 Marks]
-## The Assignment is divided to 2 tasks, each task is [1 Week]
+## The Assignment is divided into 2 tasks, each task is [1 Week]
 ### Task 1 [2 Marks]
 #### 1. Read the required readings.
 #### 2. Set up the app on your machine.
 
 ### Task 2 [6 Marks]
 #### 1. Review only all `.php` files in the `root` directory and `/member` directory.
-#### 2. Your should review each file according to the review checklist.
+#### 2. Your should review each file according to the review checklist to check if there are any parts of the file that violated the review checklist.
 #### 3. Write detailed review report.
 -	Complete - No information is missing 
 -	Clear - Every sentence's meaning must be clear
--	Consistent – The writing style and notation is consistent throughout the document and the document does not contradict itself
+-	Consistent – The writing style and notation is consistent throughout the report
 #### 4. Follow this [Review Template](https://docs.google.com/document/d/1M87DXbTUtgTL899utmO4DNukzKA77c6TXu8zXYk-xtA/edit)
-#### 5. Your report must has a cover page with University and faculty name, your name, course code and name, assignmnet number and date.
+#### 5. Your report must has a cover page with University and faculty name, semester and year, your name, course code and name, assignmnet number and date.
