@@ -8,10 +8,12 @@ You have to read some tutorials before starting in the assignment.
   - 2. Learn coding standards for PHP [PHP Coding Standards](http://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
 
 # Setting Up Your Development Environment
-  - 1. Download and Setup [XAMPP](https://www.apachefriends.org/download.html)
-  - 2. Download the project or clone it using [GIT](https://git-scm.com/), you can check this link to know [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
-  - 3. Put the project in `C:\xampp\htdocs` folder on your machine and run it in `localhost` according to the Crash Course in the Readings
-  - 4. Take a journey in the application
+  1. Download and Setup [XAMPP v5.6.14](https://l.facebook.com/l.php?u=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxampp%2Ffiles%2FXAMPP%2520Windows%2F5.6.14%2Fxampp-win32-5.6.14-3-VC11-installer.exe%2Fdownload&h=ATO3QZFHwPB1trPEOJKuP_F-myGFc2s7Ugd4Ube5L0c1d1EaoU_ej9g-a3I4KzXx8TYhmM0cNp0noGqdmyhc5LnSTZVI7uXjrv03nl-sYsUhDYbM8b0sa6tw-jLsBLCOdyX9KnrskVapBw)
+  2. Download the project or clone it using [GIT](https://git-scm.com/), you can check this link to know [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
+  3. Put the project in `C:\xampp\htdocs` folder on your machine and run it on `localhost` according to the Crash Course in the Readings
+    - From XAMPP control panel, click start for Apache
+    - Open http://localhost:{default-port}/SE604-Library_System/
+  4. Take a journey in the application(Signup, Login, Search for Book, ... etc.)
 
 # Code Review Checklist
 
@@ -71,9 +73,10 @@ You have to read some tutorials before starting in the assignment.
 ## Security
   - [ ] No vulnerable code that can be exploited as SQL Injection
   - [ ] No vulnerable code that can be exploited as Cross Site Scripting(XSS)
-  - [ ] Sensitive Data are encrypted
+  - [ ] Sensitive Data are encrypted before store it in the Database
   - [ ] No use of Hard-coded Credentials
   - [ ] No missing Authentication for Critical Function
+  - [ ] Cookies data are encrypted
 
 
 # Assignment

@@ -40,6 +40,8 @@
 									$row=mysql_fetch_array($result);
 									if( $num_row > 0 ) {
 										header('location:dashboard.php');
+										setcookie('username', $username);
+										setcookie('password', $password);
 								$_SESSION['id']=$row['member_id'];
 									}
 									else{ ?>
