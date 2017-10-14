@@ -10,10 +10,10 @@ You have to read some tutorials before starting in the assignment.
 # Setting Up Your Development Environment
   1. Download and Setup [XAMPP v5.6.14](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.14/xampp-win32-5.6.14-3-VC11-installer.exe/download)
   2. Download the project or clone it using [GIT](https://git-scm.com/), you can check this link to know [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
-  3. Put the project in `C:\xampp\htdocs` folder on your machine and run it on `localhost` according to the Crash Course in the Readings
-    1. From XAMPP control panel, click start for Apache
-    2. Open http://localhost:{default-port}/SE604-Library_System/
-  4. Take a journey in the application(Signup, Login, Search for Book, ... etc.)
+  3. Put the project in `C:\xampp\htdocs` folder on your machine to run it on `localhost` according to the Crash Course in the Readings
+  4.  From XAMPP control panel, click start for Apache
+  5. Open http://localhost:{default-port}/SE604-Library_System/
+  6. Take a journey in the application(Signup, Login, Search for Book, ... etc.)
 
 # Code Review Checklist
 
