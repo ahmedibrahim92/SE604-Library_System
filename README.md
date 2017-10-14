@@ -2,22 +2,23 @@
 Code Review Assignment for Class SE604, 2017.
 This is an opensource project for [Online Library Management System](https://github.com/keya26/library), we updated/added some changes to use in our code review assignment.
 
-# Required Readings
+# Required Readings [1 Mark]
 You have to read some tutorials before starting in the assignment.
   1. Learn how to build PHP applications [PHP Crash Course](http://www.makeuseof.com/tag/learn-build-php-crash-course/)
   2. Learn coding standards for PHP [PHP Coding Standards](http://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html)
 
-# Setting Up Your Development Environment
+# Setting Up Your Development Environment [1 Mark]
   1. Download and Setup [XAMPP v5.6.14](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.14/xampp-win32-5.6.14-3-VC11-installer.exe/download)
   2. Download the project or clone it using [GIT](https://git-scm.com/), you can check this link to know [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
   3. Put the project in `C:\xampp\htdocs` folder on your machine to run it on `localhost` according to the Crash Course in the Readings
   4.  From XAMPP control panel, click start for Apache
   5. Open http://localhost:{default-port}/SE604-Library_System/
   6. Take a journey in the application(Signup, Login, Search for Book, ... etc.)
+  7. Submit Snapshots with the application
 
-# Code Review Checklist
+# Code Review Checklist [6 Marks]
 
-## General
+## General [1 Mark]
   - [ ] The code works
   - [ ] The code is easy to understand
   - [ ] Follows coding conventions
@@ -54,7 +55,7 @@ You have to read some tutorials before starting in the assignment.
   - [ ] Performance is considered
   - [ ] Loop iteration and off by one are taken care of
 
-## Architecture
+## Architecture [1 Mark]
   - [ ] [Law of Demeter](http://c2.com/cgi/wiki/LawOfDemeter?LawOfDemeter) is not violated
   - [ ] A class/file should has only a single responsibility
   - [ ] Classes, modules, functions, etc. should be open for extension, but closed for modification
@@ -62,7 +63,7 @@ You have to read some tutorials before starting in the assignment.
   - [ ] Many client-specific interfaces are better than one general-purpose interface.
   - [ ] Depend upon Abstractions. Do not depend upon concretions.
   
-## Documentation
+## Documentation [1 Mark]
   - [ ] Comments should indicate WHY rather that WHAT the code is doing
   - [ ] All methods are commented in clear language.
   - [ ] Comments exist and describe rationale or reasons for decisions in code
@@ -70,7 +71,7 @@ You have to read some tutorials before starting in the assignment.
   - [ ] All edge cases are described in comments
   - [ ] All unusual behaviour or edge case handling is commented
 
-## Security
+## Security [3 Mark]
   - [ ] No vulnerable code that can be exploited as SQL Injection
   - [ ] No vulnerable code that can be exploited as Cross Site Scripting(XSS)
   - [ ] Sensitive Data are encrypted before store it in the Database
@@ -79,6 +80,18 @@ You have to read some tutorials before starting in the assignment.
   - [ ] Cookies data are encrypted
 
 
-# Assignment
-### 1. Review only all `.php` files in the `root` directory and `/member` directory.
-### 2. Your should review each file according to the review checklist.
+# Assignment [8 Marks]
+## The Assignment is divided to 2 tasks, each task is [1 Week]
+### Task 1 [2 Marks]
+#### 1. Read the required readings.
+#### 2. Set up the app on your machine.
+
+### Task 2 [6 Marks]
+#### 1. Review only all `.php` files in the `root` directory and `/member` directory.
+#### 2. Your should review each file according to the review checklist.
+#### 3. Write detailed review report.
+-	Complete - No information is missing 
+-	Clear - Every sentence's meaning must be clear
+-	Consistent – The writing style and notation is consistent throughout the document and the document does not contradict itself
+#### 4. Follow this [Review Template](https://docs.google.com/document/d/1M87DXbTUtgTL899utmO4DNukzKA77c6TXu8zXYk-xtA/edit)
+#### 5. Your report must has a cover page with University and faculty name, your name, course code and name, assignmnet number and date.
