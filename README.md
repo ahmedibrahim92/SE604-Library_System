@@ -2,6 +2,12 @@
 Code Review Assignment for Class SE604, 2017.
 This is an opensource project for [Online Library Management System](https://github.com/keya26/library), we updated/added some changes to use in our code review assignment.
 
+# Objectives
+After compeleting the assignment, student will:
+ 1. Gain knowledge about code review process. 
+ 2. Gain knowlege about secure code review.
+ 3. Gain knowlege about software vulnerabilities and how to detect them. 
+
 # Required Readings [1 Mark]
 You have to read some tutorials before starting in the assignment.
   1. Learn how to build PHP applications [PHP Crash Course](http://www.makeuseof.com/tag/learn-build-php-crash-course/)
