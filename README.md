@@ -94,5 +94,5 @@ You have to read some tutorials before starting in the assignment.
 -	Complete - No information is missing 
 -	Clear - Every sentence's meaning must be clear
 -	Consistent – The writing style and notation is consistent throughout the report
-#### 4. Follow this [Review Template](https://docs.google.com/document/d/1M87DXbTUtgTL899utmO4DNukzKA77c6TXu8zXYk-xtA/edit)
+#### 4. Follow the uploaded `Review Template` on Acadox
 #### 5. Your report must has a cover page with University and faculty name, semester and year, your name, course code and name, assignmnet number and date.
